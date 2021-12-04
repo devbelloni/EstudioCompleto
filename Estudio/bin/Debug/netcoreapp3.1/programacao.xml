@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<programacao>
+	<tipo>Musical</tipo>
+	<data>2021/07/30</data>
+	<origem>MusicMaster</origem>
+	<blocos>
+		<bloco>
+			<horario>00:00</horario>
+			<items>
+				<item idexterno="479641">
+					<evento>
+						<codigo>0000000076</codigo>
+						<nome>ANGEL</nome>
+						<extras>
+							<idexterno nome="idexterno">21421</idexterno>
+							<tempototal nome="tempototal">24000</tempototal>
+							<campo nome="lista">ROCK</campo>
+							<campo nome="CaminhoAudio">U:\Metro_musicas</campo>
+							<campo nome="nomearquivo">SHAGGY - ANGEL.wav</campo>
+							<campo nome="interpretelocutor">SHAGGY</campo>
+							<campo nome="vigenciainicial">01/12/2020</campo>
+							<campo nome="vigenciafinal">15/12/2021</campo>
+							<campo nome="datalancamento">01/10/2019</campo>
+							<campo nome="observacao">Observação Teste: Evento Código 2633 Linha Plus 1 Linha Plus 2 Linha Plus 3 Linha Plus 4</campo>
+							<campo nome="compositor">Compositor 01</campo>
+							<campo nome="gravadora">WARNER</campo>
+							<campo nome="tema">M</campo>
+							<campo nome="album">ÁLBUM - 01</campo>
+							<campo nome="capa">https://i.scdn.co/image/ab67616d0000b273d8184df2d24ff39b63ab0c3c</campo>
+							<campo nome="pontoinicial">1000</campo>
+							<campo nome="pontofinal">121000</campo>
+							<campo nome="pontointroducao">1000</campo>
+							<campo nome="pontomixagem">111000</campo>
+							<campo nome="pontorefraoinicial">11000</campo>
+							<campo nome="pontorefraofinal">21000</campo>
+						</extras>
+					</evento>
+				</item>
+				<item idexterno="479642">
+					<evento>
+						<codigo>0000000089</codigo>
+						<nome>THE REASON</nome>
+						<extras>
+							<idexterno nome="idexterno">21448</idexterno>
+							<tempototal nome="tempototal">4000</tempototal>
+							<campo nome="lista">ROCK</campo>
+							<campo nome="CaminhoAudio">U:\Metro_musicas</campo>
+							<campo nome="nomearquivo">HOOBASTANK - THE REASON.wav</campo>
+							<campo nome="interpretelocutor">HOOBASTANK</campo>
+							<campo nome="vigenciainicial">01/12/2020</campo>
+							<campo nome="vigenciafinal">15/12/2021</campo>
+							<campo nome="datalancamento">01/10/2019</campo>
+							<campo nome="observacao">Observação Teste: Evento Código 5477 Linha Plus 1 Linha Plus 2 Linha Plus 3 Linha Plus 4</campo>
+							<campo nome="compositor">Compositor 02</campo>
+							<campo nome="gravadora">WARNER</campo>
+							<campo nome="tema">M</campo>
+							<campo nome="album">ÁLBUM - 02</campo>
+							<campo nome="capa">https://i.scdn.co/image/ab67616d0000b273d8184df2d24ff39b63ab0c3c - LINK 2</campo>
+							<campo nome="pontoinicial">2000</campo>
+							<campo nome="pontofinal">122000</campo>
+							<campo nome="pontointroducao">2000</campo>
+							<campo nome="pontomixagem">112000</campo>
+							<campo nome="pontorefraoinicial">12000</campo>
+							<campo nome="pontorefraofinal">22000</campo>
+						</extras>
+					</evento>
+				</item>
+				<item idexterno="479643">
+					<evento>
+						<codigo>0000000134</codigo>
+						<nome>SCAR TISSUE</nome>
+						<extras>
+							<idexterno nome="idexterno">21414</idexterno>
+							<tempototal nome="tempototal">9400</tempototal>
+							<campo nome="lista">ROCK</campo>
+							<campo nome="CaminhoAudio">U:\Metro_musicas</campo>
+							<campo nome="nomearquivo">RED HOT CHILI PEPPERS - SCAR TISSUE.wav</campo>
+							<campo nome="interpretelocutor">RED HOT CHILI PEPPERS</campo>
+							<campo nome="vigenciainicial">01/12/2020</campo>
+							<campo nome="vigenciafinal">15/12/2021</campo>
+							<campo nome="datalancamento">01/10/2019</campo>
+							<campo nome="observacao">Observação Teste: Evento Código 5611 Linha Plus 1 Linha Plus 2 Linha Plus 3 Linha Plus 4</campo>
+							<campo nome="compositor">Compositor 01</campo>
+							<campo nome="gravadora">WARNER</campo>
+							<campo nome="tema">M</campo>
+							<campo nome="album">ÁLBUM - 03</campo>
+							<campo nome="capa">https://i.scdn.co/image/ab67616d0000b273d8184df2d24ff39b63ab0c3c - LINK 23</campo>
+							<campo nome="pontoinicial">3000</campo>
+							<campo nome="pontofinal">123000</campo>
+							<campo nome="pontointroducao">3000</campo>
+							<campo nome="pontomixagem">113000</campo>
+							<campo nome="pontorefraoinicial">13000</campo>
+							<campo nome="pontorefraofinal">23000</campo>
+						</extras>
+					</evento>
+				</item>
+				<item idexterno="479644">
+					<evento>
+						<codigo>0000000178</codigo>
+						<nome>IS THIS LOVE</nome>
+						<extras>
+							<idexterno nome="idexterno">21353</idexterno>
+							<tempototal nome="tempototal">12000</tempototal>
+							<campo nome="lista">ROCK</campo>
+							<campo nome="CaminhoAudio">U:\Metro_musicas</campo>
+							<campo nome="nomearquivo">BOB MARLEY - IS THIS LOVE.wav</campo>
+							<campo nome="interpretelocutor">BOB MARLEY</campo>
+							<campo nome="vigenciainicial">01/12/2020</campo>
+							<campo nome="vigenciafinal">15/12/2021</campo>
+							<campo nome="datalancamento">01/10/2019</campo>
+							<campo nome="observacao">Observação Teste: Evento Código 5858 Linha Plus 1 Linha Plus 2 Linha Plus 3 Linha Plus 4</campo>
+							<campo nome="compositor">Compositor 04</campo>
+							<campo nome="gravadora">WARNER</campo>
+							<campo nome="tema">M</campo>
+							<campo nome="album">ÁLBUM - 04</campo>
+							<campo nome="capa">https://i.scdn.co/image/ab67616d0000b273d8184df2d24ff39b63ab0c3c - LINK 4</campo>
+							<campo nome="pontoinicial">4000</campo>
+							<campo nome="pontofinal">124000</campo>
+							<campo nome="pontointroducao">4000</campo>
+							<campo nome="pontomixagem">114000</campo>
+							<campo nome="pontorefraoinicial">14000</campo>
+							<campo nome="pontorefraofinal">24000</campo>
+						</extras>
+					</evento>
+				</item>
+				<item idexterno="479645">
+					<evento>
+						<codigo>0000000327</codigo>
+						<nome>TWIST AND SHOUT</nome>
+						<extras>
+							<idexterno nome="idexterno">21860</idexterno>
+							<tempototal nome="tempototal">6450</tempototal>
+							<campo nome="lista">ROCK</campo>
+							<campo nome="CaminhoAudio">U:\Metro_musicas</campo>
+							<campo nome="nomearquivo">THE BEATLES - TWIST AND SHOUT.wav</campo>
+							<campo nome="interpretelocutor">THE BEATLES</campo>
+							<campo nome="vigenciainicial">01/12/2020</campo>
+							<campo nome="vigenciafinal">15/12/2021</campo>
+							<campo nome="datalancamento">01/10/2019</campo>
+							<campo nome="observacao">Observação Teste: Evento Código 6006 Linha Plus 1 Linha Plus 2 Linha Plus 3 Linha Plus 4</campo>
+							<campo nome="compositor">Compositor 05</campo>
+							<campo nome="gravadora">WARNER</campo>
+							<campo nome="tema">M</campo>
+							<campo nome="album">ÁLBUM - 05</campo>
+							<campo nome="capa">https://i.scdn.co/image/ab67616d0000b273d8184df2d24ff39b63ab0c3c - LINK 5</campo>
+							<campo nome="pontoinicial">5000</campo>
+							<campo nome="pontofinal">125000</campo>
+							<campo nome="pontointroducao">5000</campo>
+							<campo nome="pontomixagem">115000</campo>
+							<campo nome="pontorefraoinicial">15000</campo>
+							<campo nome="pontorefraofinal">25000</campo>
+						</extras>
+					</evento>
+				</item>
+				<item idexterno="479646">
+					<evento>
+						<codigo>0000000337</codigo>
+						<nome>WE WILL ROCK YOU</nome>
+						<extras>
+							<idexterno nome="idexterno">21412</idexterno>
+							<tempototal nome="tempototal">8300</tempototal>
+							<campo nome="lista">ROCK</campo>
+							<campo nome="CaminhoAudio">U:\Metro_musicas</campo>
+							<campo nome="nomearquivo">QUEEN - WE WILL ROCK YOU.wav</campo>
+							<campo nome="interpretelocutor">QUEEN</campo>
+							<campo nome="vigenciainicial">30/12/1899</campo>
+							<campo nome="vigenciafinal">30/12/1899</campo>
+							<campo nome="datalancamento">30/12/1899</campo>
+							<campo nome="observacao"/>
+							<campo nome="compositor"/>
+							<campo nome="gravadora">EMI MUSIC</campo>
+							<campo nome="tema"/>
+							<campo nome="album">NEWS OF THE WORLD</campo>
+							<campo nome="capa"/>
+							<campo nome="pontoinicial">-1</campo>
+							<campo nome="pontofinal">-1</campo>
+							<campo nome="pontointroducao">-1</campo>
+							<campo nome="pontomixagem">-1</campo>
+							<campo nome="pontorefraoinicial">-1</campo>
+							<campo nome="pontorefraofinal">-1</campo>
+						</extras>
+					</evento>
+				</item>
+				<item idexterno="479647">
+					<evento>
+						<codigo>0000000340</codigo>
+						<nome>UNDER THE BRIDGE</nome>
+						<extras>
+							<idexterno nome="idexterno">20083</idexterno>
+							<tempototal nome="tempototal">2410</tempototal>
+							<campo nome="lista">ROCK</campo>
+							<campo nome="CaminhoAudio">U:\Metro_musicas</campo>
+							<campo nome="nomearquivo">RED HOT CHILI PEPPERS - UNDER THE BRIDGE.wav</campo>
+							<campo nome="interpretelocutor">RED HOT CHILI PEPPERS</campo>
+							<campo nome="vigenciainicial">30/12/1899</campo>
+							<campo nome="vigenciafinal">30/12/1899</campo>
+							<campo nome="datalancamento">30/12/1899</campo>
+							<campo nome="observacao"/>
+							<campo nome="compositor"/>
+							<campo nome="gravadora">WARNER</campo>
+							<campo nome="tema"/>
+							<campo nome="album">BLOOD SUGAR SEX MAGIK</campo>
+							<campo nome="capa"/>
+							<campo nome="pontoinicial">-1</campo>
+							<campo nome="pontofinal">-1</campo>
+							<campo nome="pontointroducao">-1</campo>
+							<campo nome="pontomixagem">-1</campo>
+							<campo nome="pontorefraoinicial">-1</campo>
+							<campo nome="pontorefraofinal">-1</campo>
+						</extras>
+					</evento>
+				</item>
+				<item idexterno="479649">
+					<evento>
+						<codigo>0000006133</codigo>
+						<nome>MEU TALISMA</nome>
+						<extras>
+							<idexterno nome="idexterno">18508</idexterno>
+							<tempototal nome="tempototal">3600</tempototal>
+							<campo nome="lista">Nacional Atual</campo>
+							<campo nome="CaminhoAudio">U:\Metro_musicas</campo>
+							<campo nome="nomearquivo">IZA - MEU TALISMÃ.wav</campo>
+							<campo nome="interpretelocutor">IZA</campo>
+							<campo nome="vigenciainicial">01/12/2020</campo>
+							<campo nome="vigenciafinal">15/12/2021</campo>
+							<campo nome="datalancamento">01/10/2019</campo>
+							<campo nome="observacao">Observação Teste: Evento Código 2633 Linha Plus 1 Linha Plus 2 Linha Plus 3 Linha Plus 4</campo>
+							<campo nome="compositor">Compositor 01</campo>
+							<campo nome="gravadora">WARNER</campo>
+							<campo nome="tema">M</campo>
+							<campo nome="album">ÁLBUM - 01</campo>
+							<campo nome="capa">https://i.scdn.co/image/ab67616d0000b273d8184df2d24ff39b63ab0c3c</campo>
+							<campo nome="pontoinicial">1000</campo>
+							<campo nome="pontofinal">121000</campo>
+							<campo nome="pontointroducao">1000</campo>
+							<campo nome="pontomixagem">111000</campo>
+							<campo nome="pontorefraoinicial">11000</campo>
+							<campo nome="pontorefraofinal">21000</campo>
+						</extras>
+					</evento>
+				</item>
+				<item idexterno="479650">
+					<evento>
+						<codigo>0000005477</codigo>
+						<nome>TREM BALA</nome>
+						<extras>
+							<idexterno nome="idexterno">20865</idexterno>
+							<tempototal nome="tempototal">20000</tempototal>
+							<campo nome="lista">Nacional Atual</campo>
+							<campo nome="CaminhoAudio">U:\Metro_musicas</campo>
+							<campo nome="nomearquivo">ANA VILELLA - TREM BALA.wav</campo>
+							<campo nome="interpretelocutor">ANA VILELA</campo>
+							<campo nome="vigenciainicial">01/12/2020</campo>
+							<campo nome="vigenciafinal">15/12/2021</campo>
+							<campo nome="datalancamento">01/10/2019</campo>
+							<campo nome="observacao">Observação Teste: Evento Código 5477 Linha Plus 1 Linha Plus 2 Linha Plus 3 Linha Plus 4</campo>
+							<campo nome="compositor">Compositor 02</campo>
+							<campo nome="gravadora">WARNER</campo>
+							<campo nome="tema">M</campo>
+							<campo nome="album">ÁLBUM - 02</campo>
+							<campo nome="capa">https://i.scdn.co/image/ab67616d0000b273d8184df2d24ff39b63ab0c3c - LINK 2</campo>
+							<campo nome="pontoinicial">2000</campo>
+							<campo nome="pontofinal">122000</campo>
+							<campo nome="pontointroducao">2000</campo>
+							<campo nome="pontomixagem">112000</campo>
+							<campo nome="pontorefraoinicial">12000</campo>
+							<campo nome="pontorefraofinal">22000</campo>
+						</extras>
+					</evento>
+				</item>
+				<item idexterno="479651">
+					<evento>
+						<codigo>0000005611</codigo>
+						<nome>PESADAO</nome>
+						<extras>
+							<idexterno nome="idexterno">20867</idexterno>
+							<tempototal nome="tempototal">1700</tempototal>
+							<campo nome="lista">Nacional Atual</campo>
+							<campo nome="CaminhoAudio">U:\Metro_musicas</campo>
+							<campo nome="nomearquivo">IZA E MARCELO FALCÃO - PESADÃO.wav</campo>
+							<campo nome="interpretelocutor">IZA</campo>
+							<campo nome="vigenciainicial">01/12/2020</campo>
+							<campo nome="vigenciafinal">15/12/2021</campo>
+							<campo nome="datalancamento">01/10/2019</campo>
+							<campo nome="observacao">Observação Teste: Evento Código 5611 Linha Plus 1 Linha Plus 2 Linha Plus 3 Linha Plus 4</campo>
+							<campo nome="compositor">Compositor 01</campo>
+							<campo nome="gravadora">WARNER</campo>
+							<campo nome="tema">M</campo>
+							<campo nome="album">ÁLBUM - 03</campo>
+							<campo nome="capa">https://i.scdn.co/image/ab67616d0000b273d8184df2d24ff39b63ab0c3c - LINK 23</campo>
+							<campo nome="pontoinicial">3000</campo>
+							<campo nome="pontofinal">123000</campo>
+							<campo nome="pontointroducao">3000</campo>
+							<campo nome="pontomixagem">113000</campo>
+							<campo nome="pontorefraoinicial">13000</campo>
+							<campo nome="pontorefraofinal">23000</campo>
+						</extras>
+					</evento>
+				</item>
+				<item idexterno="479652">
+					<evento>
+						<codigo>0000005858</codigo>
+						<nome>DONA DE MIM (EDIT)</nome>
+						<extras>
+							<idexterno nome="idexterno">20868</idexterno>
+							<tempototal nome="tempototal">35000</tempototal>
+							<campo nome="lista">Nacional Atual</campo>
+							<campo nome="CaminhoAudio">U:\Metro_musicas</campo>
+							<campo nome="nomearquivo">IZA &#8211; DONA DE MIM (EDIT).wav</campo>
+							<campo nome="interpretelocutor">IZA</campo>
+							<campo nome="vigenciainicial">01/12/2020</campo>
+							<campo nome="vigenciafinal">15/12/2021</campo>
+							<campo nome="datalancamento">01/10/2019</campo>
+							<campo nome="observacao">Observação Teste: Evento Código 5858 Linha Plus 1 Linha Plus 2 Linha Plus 3 Linha Plus 4</campo>
+							<campo nome="compositor">Compositor 04</campo>
+							<campo nome="gravadora">WARNER</campo>
+							<campo nome="tema">M</campo>
+							<campo nome="album">ÁLBUM - 04</campo>
+							<campo nome="capa">https://i.scdn.co/image/ab67616d0000b273d8184df2d24ff39b63ab0c3c - LINK 4</campo>
+							<campo nome="pontoinicial">4000</campo>
+							<campo nome="pontofinal">124000</campo>
+							<campo nome="pontointroducao">4000</campo>
+							<campo nome="pontomixagem">114000</campo>
+							<campo nome="pontorefraoinicial">14000</campo>
+							<campo nome="pontorefraofinal">24000</campo>
+						</extras>
+					</evento>
+				</item>
+				<item idexterno="479653">
+					<evento>
+						<codigo>0000006006</codigo>
+						<nome>BRISA</nome>
+						<extras>
+							<idexterno nome="idexterno">20869</idexterno>
+							<tempototal nome="tempototal">2000</tempototal>
+							<campo nome="lista">Nacional Atual</campo>
+							<campo nome="CaminhoAudio">U:\Metro_musicas</campo>
+							<campo nome="nomearquivo">IZA - BRISA.wav</campo>
+							<campo nome="interpretelocutor">IZA</campo>
+							<campo nome="vigenciainicial">01/12/2020</campo>
+							<campo nome="vigenciafinal">15/12/2021</campo>
+							<campo nome="datalancamento">01/10/2019</campo>
+							<campo nome="observacao">Observação Teste: Evento Código 6006 Linha Plus 1 Linha Plus 2 Linha Plus 3 Linha Plus 4</campo>
+							<campo nome="compositor">Compositor 05</campo>
+							<campo nome="gravadora">WARNER</campo>
+							<campo nome="tema">M</campo>
+							<campo nome="album">ÁLBUM - 05</campo>
+							<campo nome="capa">https://i.scdn.co/image/ab67616d0000b273d8184df2d24ff39b63ab0c3c - LINK 5</campo>
+							<campo nome="pontoinicial">5000</campo>
+							<campo nome="pontofinal">125000</campo>
+							<campo nome="pontointroducao">5000</campo>
+							<campo nome="pontomixagem">115000</campo>
+							<campo nome="pontorefraoinicial">15000</campo>
+							<campo nome="pontorefraofinal">25000</campo>
+						</extras>
+					</evento>
+				</item>
+				<item idexterno="479654">
+					<evento>
+						<codigo>0000005562</codigo>
+						<nome>ERA UMA VEZ</nome>
+						<extras>
+							<idexterno nome="idexterno">20870</idexterno>
+							<tempototal nome="tempototal">20000</tempototal>
+							<campo nome="lista">Nacional Atual</campo>
+							<campo nome="CaminhoAudio">U:\Metro_musicas</campo>
+							<campo nome="nomearquivo">KELL SMITH - ERA UMA VEZ (EDIT).wav</campo>
+							<campo nome="interpretelocutor">KELL SMITH</campo>
+							<campo nome="vigenciainicial">30/12/1899</campo>
+							<campo nome="vigenciafinal">30/12/1899</campo>
+							<campo nome="datalancamento">30/12/1899</campo>
+							<campo nome="observacao"/>
+							<campo nome="compositor"/>
+							<campo nome="gravadora"/>
+							<campo nome="tema"/>
+							<campo nome="album"/>
+							<campo nome="capa"/>
+							<campo nome="pontoinicial">-1</campo>
+							<campo nome="pontofinal">-1</campo>
+							<campo nome="pontointroducao">-1</campo>
+							<campo nome="pontomixagem">-1</campo>
+							<campo nome="pontorefraoinicial">-1</campo>
+							<campo nome="pontorefraofinal">-1</campo>
+						</extras>
+					</evento>
+				</item>
+				<item idexterno="479655">
+					<evento>
+						<codigo>0000005711</codigo>
+						<nome>MEU ABRIGO</nome>
+						<extras>
+							<idexterno nome="idexterno">20871</idexterno>
+							<tempototal nome="tempototal">17500</tempototal>
+							<campo nome="lista">Nacional Atual</campo>
+							<campo nome="CaminhoAudio">U:\Metro_musicas</campo>
+							<campo nome="nomearquivo">MELIM - MEU ABRIGO.wav</campo>
+							<campo nome="interpretelocutor">MELIM</campo>
+							<campo nome="vigenciainicial">30/12/1899</campo>
+							<campo nome="vigenciafinal">30/12/1899</campo>
+							<campo nome="datalancamento">30/12/1899</campo>
+							<campo nome="observacao"/>
+							<campo nome="compositor"/>
+							<campo nome="gravadora">UNIVERSAL</campo>
+							<campo nome="tema"/>
+							<campo nome="album"/>
+							<campo nome="capa"/>
+							<campo nome="pontoinicial">-1</campo>
+							<campo nome="pontofinal">-1</campo>
+							<campo nome="pontointroducao">-1</campo>
+							<campo nome="pontomixagem">-1</campo>
+							<campo nome="pontorefraoinicial">-1</campo>
+							<campo nome="pontorefraofinal">-1</campo>
+						</extras>
+					</evento>
+				</item>
+				<item idexterno="479656">
+					<evento>
+						<codigo>0000005800</codigo>
+						<nome>OUVI DIZER</nome>
+						<extras>
+							<idexterno nome="idexterno">20872</idexterno>
+							<tempototal nome="tempototal">15000</tempototal>
+							<campo nome="lista">Nacional Atual</campo>
+							<campo nome="CaminhoAudio">U:\Metro_musicas</campo>
+							<campo nome="nomearquivo">MELIM - OUVI DIZER.wav</campo>
+							<campo nome="interpretelocutor">MELIM</campo>
+							<campo nome="vigenciainicial">30/12/1899</campo>
+							<campo nome="vigenciafinal">30/12/1899</campo>
+							<campo nome="datalancamento">30/12/1899</campo>
+							<campo nome="observacao"/>
+							<campo nome="compositor"/>
+							<campo nome="gravadora">UNIVERSAL</campo>
+							<campo nome="tema"/>
+							<campo nome="album"/>
+							<campo nome="capa"/>
+							<campo nome="pontoinicial">-1</campo>
+							<campo nome="pontofinal">-1</campo>
+							<campo nome="pontointroducao">-1</campo>
+							<campo nome="pontomixagem">-1</campo>
+							<campo nome="pontorefraoinicial">-1</campo>
+							<campo nome="pontorefraofinal">-1</campo>
+						</extras>
+					</evento>
+				</item>
+			</items>
+		</bloco>
+	</blocos>
+</programacao>

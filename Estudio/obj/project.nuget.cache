@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "bRL43OduvItdXzoA/NKnWJCYcYAoXoc5CYztejHbDudAa1CiKodSJzPHWaRpt6sPJYB0R8CWPTNOzGevIgkoMw==",
+  "success": true,
+  "projectFilePath": "D:\\PROGRAMAÇÃO\\C#\\wpf\\Estudio1\\Estudio\\Estudio1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\maluco\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\maluco\\.nuget\\packages\\mvvmcross\\8.0.2\\mvvmcross.8.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
