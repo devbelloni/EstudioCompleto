@@ -30,14 +30,8 @@
         <Label Content="Tocando" HorizontalAlignment="Left" Margin="316,73,0,0" VerticalAlignment="Top"/>
         <Label Content="Tempo" HorizontalAlignment="Left" Margin="467,73,0,0" VerticalAlignment="Top" Width="47"/>
         <Image Source="/logo.jpg" Margin="616,-6,10,325"/>
-        <ListBox x:Name="ListaDeMusicas" HorizontalAlignment="Center" Width="600" Margin="0,144,0,126" SelectionMode="Single" SelectedItem="i"/>        
-        <!--    <ListView Margin="10,140,10,90" Name="ListMusic" >
-            <ListView.View>
-                <GridView>
-                    <GridViewColumn Header="Músicas" x:Name="listando"  Width="460"/>
-                    <GridViewColumn Header="Duração" x:Name="time"  Width="160"/>
-                </GridView>
-            </ListView.View>
-        </ListView>
---> </Grid>
+        <DataGrid Name="dataGrid" Margin="274,137,250,118">
+        </DataGrid>
+        
+ </Grid>
 </Window>

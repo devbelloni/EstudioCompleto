@@ -1,27 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data;
 using System.IO;
-using System.Linq;
-using System.Reflection;
+using System.Net;
+using System.Net.Sockets;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using System.Xml;
-using System.Xml.Linq;
-using System.Timers;
-using System.Threading;
-using System.Diagnostics;
-using System.Net;
-using System.Net.Sockets;
 
 namespace Estudio
 {
@@ -41,21 +28,9 @@ namespace Estudio
 
             XmlDocument xml = new XmlDocument();
             xml.Load(path);
-            XmlNodeList nodeList = (xml.SelectNodes("programacao/blocos/bloco/items/item"));
-            XmlNodeList nodeList1 = (xml.SelectNodes("programacao/blocos/bloco/items/item/evento/extras"));
-            string name = null;
-            string time = null;
+            XmlNodeList nodeList = xml.SelectNodes("programacao/blocos/bloco/items/item");
 
-            foreach (XmlNode element1 in nodeList1)
-            {
-                var node1 = element1?.ChildNodes[1];
-
-                if (node1 != null)
-                {
-                    time = node1.LastChild?.Value;
-                    timeList.Add(time);
-                }
-            }
+            var listaGrid = new List<Playlist>();
 
             foreach (XmlNode element in nodeList)
             {
@@ -63,35 +38,14 @@ namespace Estudio
 
                 if (node != null)
                 {
-                    name = node.LastChild?.Value;
-                    nameList.Add(name);
+                    var name = node.LastChild?.Value;
+                    var time = node.NextSibling?.ChildNodes[1]?.InnerText;
 
+                    listaGrid.Add(new Playlist { Nome = name, Tempo = time });
                 }
             }
 
-            //            nameList.AddRange(timeList);
-            ListaDeMusicas.ItemsSource = (nameList);
-
-            /*            foreach (XmlNode element in nodeList1)
-                        {
-                            var node1 = element?.ChildNodes[1];
-
-                            if (node1 != null)
-                            {
-                                time = node1.LastChild?.Value;
-                                timeList.Add(time);
-            //                    ListMusic.ItemsSource = timeList;
-                              ListMusic.Items.Add(time);
-            //                  ListMusic.SetBinding(ListView.ItemsSourceProperty, time);
-
-                            }
-                        }
-            */
-
-
-
-
-
+            dataGrid.ItemsSource = listaGrid;
         }
 
         public void BtOK_Click(object sender, RoutedEventArgs e)
@@ -125,11 +79,6 @@ namespace Estudio
             }
         }
 
-        private void ListMusic_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
-
         public void playngMusic_TextChanged(object sender, TextChangedEventArgs e)
         {
 
@@ -145,22 +94,16 @@ namespace Estudio
                 UDPTask(ip.Text, int.Parse(porta.Text),mensagem);
                 string palavra = nameList[i].ToString();
                 playngMusic.Text = palavra;
-                ListaDeMusicas.SelectedItem = i;
-
 
                 int count = int.Parse(timeList[i]);
 
-
                 while (count != 0)
                 {
-
                     timerbox.Text = count.ToString();
                     count--;
                     await Task.Delay(1000);
-
                 }
             }
-
         }
         public static void UDPTask(String IpDest, Int32 Port, Byte[] SendBuffer)
         {
@@ -177,4 +120,9 @@ namespace Estudio
         }
     }
 
+    public class Playlist
+    {
+        public string Nome { get; set; }
+        public string Tempo { get; set; }
+    }
 }
