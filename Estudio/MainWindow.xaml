@@ -1,5 +1,4 @@
 ﻿<Window x:Class="Estudio.MainWindow"
-        
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -28,10 +27,8 @@
             </TextBox.Effect>
         </TextBox>
         <Label Content="Tocando" HorizontalAlignment="Left" Margin="316,73,0,0" VerticalAlignment="Top"/>
-        <Label Content="Tempo" HorizontalAlignment="Left" Margin="467,73,0,0" VerticalAlignment="Top" Width="47"/>
+        <Label Content="Tempo" HorizontalAlignment="Left" Margin="467,73,0,0" VerticalAlignment="Top" Width="auto"/>
         <Image Source="/logo.jpg" Margin="616,-6,10,325"/>
-        <DataGrid Name="dataGrid" Margin="274,137,250,118">
-        </DataGrid>
-        
- </Grid>
+        <DataGrid Name="dataGrid" Margin="200,140,200,120"></DataGrid>
+    </Grid>
 </Window>

@@ -12,15 +12,15 @@ using System.Xml;
 
 namespace Estudio
 {
+    /// Marcio Belloni - Data:04/12/2021 - V1.0
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
-        readonly string path = "programacao.xml";
-        List<string> nameList = new List<string>();
-        List<string> timeList = new List<string>();
- 
+        readonly string path = "programacao.xml"; // Cria o caminho para o xml
+        List<string> nameList = new List<string>(); // cria a lista nameList
+        List<string> timeList = new List<string>(); // cria a lista timeList
 
         public MainWindow()
         {
@@ -28,26 +28,27 @@ namespace Estudio
 
             XmlDocument xml = new XmlDocument();
             xml.Load(path);
-            XmlNodeList nodeList = xml.SelectNodes("programacao/blocos/bloco/items/item");
+            XmlNodeList nodeList = xml.SelectNodes("programacao/blocos/bloco/items/item"); // adiciona ao Nodelist a lista do xml
 
             var listaGrid = new List<Playlist>();
 
+            // Criar a lista com o nome e duração das músicas e subir para o Datagrid
             foreach (XmlNode element in nodeList)
             {
                 var node = element?.ChildNodes[0]?.ChildNodes[1];
 
                 if (node != null)
-                {
+                {  //Identifica e instancia as strings
                     var name = node.LastChild?.Value;
                     var time = node.NextSibling?.ChildNodes[1]?.InnerText;
-
+                    // Alimenta a listaGrid com a informação
                     listaGrid.Add(new Playlist { Nome = name, Tempo = time });
                 }
             }
-
+            // Envia ao Datagrid a lista.
             dataGrid.ItemsSource = listaGrid;
         }
-
+        // Método para o botão de Servidor
         public void BtOK_Click(object sender, RoutedEventArgs e)
         {
             DateTime dateTime = DateTime.Today;
@@ -58,6 +59,7 @@ namespace Estudio
                 btOK.IsEnabled = true;
             File.WriteAllTextAsync("WriteText.txt", servidor);
         }
+        // Método do botão de enviar
         private void BtEnviar_Ok(object sender, RoutedEventArgs e)
         {
             string mensagemServidor = Convert.ToString(mensagem.Text);
@@ -68,7 +70,7 @@ namespace Estudio
                 UDPTask(ip.Text, int.Parse(porta.Text), Encoding.ASCII.GetBytes(mensagemServidor));
             }
         }
-
+        // Botão de iniciar o player
         public void BtPlay_ClickAsync(object sender, RoutedEventArgs e)
         {
             {
@@ -78,12 +80,11 @@ namespace Estudio
                 }
             }
         }
-
         public void playngMusic_TextChanged(object sender, TextChangedEventArgs e)
         {
 
         }
-
+        // Cria ao método assíncrono para contagem do tempo
         public async void Vs()
         {
 
@@ -105,6 +106,7 @@ namespace Estudio
                 }
             }
         }
+        // Método para o envio das mensagens UDP
         public static void UDPTask(String IpDest, Int32 Port, Byte[] SendBuffer)
         {
             //IP do Destino
@@ -119,7 +121,7 @@ namespace Estudio
             Thread.Sleep(2000);
         }
     }
-
+    // Cria a classe para o playlist.
     public class Playlist
     {
         public string Nome { get; set; }
