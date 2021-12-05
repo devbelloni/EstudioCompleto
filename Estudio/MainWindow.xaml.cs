@@ -81,12 +81,7 @@ namespace Estudio
                 }
             }
         }
-        public void playngMusic_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
         // Cria ao método assíncrono para contagem do tempo
-
         public async void Vs()
         {
             XmlDocument xml = new XmlDocument();
