@@ -19,8 +19,6 @@ namespace Estudio
     public partial class MainWindow : Window
     {
         readonly string path = "programacao.xml"; // Cria o caminho para o xml
-        List<string> nameList = new List<string>(); // cria a lista nameList
-        List<string> timeList = new List<string>(); // cria a lista timeList
 
         public MainWindow()
         {
@@ -32,10 +30,12 @@ namespace Estudio
 
             var listaGrid = new List<Playlist>();
 
+ 
+
             // Criar a lista com o nome e duração das músicas e subir para o Datagrid
             foreach (XmlNode element in nodeList)
             {
-                var node = element?.ChildNodes[0]?.ChildNodes[1];
+                XmlNode node = element?.ChildNodes[0]?.ChildNodes[1];
 
                 if (node != null)
                 {  //Identifica e instancia as strings
@@ -44,6 +44,7 @@ namespace Estudio
                     // Alimenta a listaGrid com a informação
                     listaGrid.Add(new Playlist { Nome = name, Tempo = time });
                 }
+
             }
             // Envia ao Datagrid a lista.
             dataGrid.ItemsSource = listaGrid;
@@ -85,8 +86,36 @@ namespace Estudio
 
         }
         // Cria ao método assíncrono para contagem do tempo
+
         public async void Vs()
         {
+            XmlDocument xml = new XmlDocument();
+            xml.Load(path);
+            XmlNodeList nodeList = (xml.SelectNodes("programacao/blocos/bloco/items/item"));
+            XmlNodeList nodeList1 = (xml.SelectNodes("programacao/blocos/bloco/items/item/evento/extras"));
+            List<string> nameList = new List<string>();
+            List<string> timeList = new List<string>();
+
+            foreach (XmlNode element in nodeList)
+            {
+                var node = element?.ChildNodes[0]?.ChildNodes[1];
+
+                if (node != null)
+                {
+                    var name = node.LastChild?.Value;
+                    nameList.Add(name);
+                }
+            }
+            foreach (XmlNode element in nodeList1)
+            {
+                var node1 = element?.ChildNodes[1];
+
+                if (node1 != null)
+                {
+                    var time = node1.InnerText;
+                    timeList.Add(time);
+                }
+            }
 
             for (int i = 0; i < 15; i++)
             {
